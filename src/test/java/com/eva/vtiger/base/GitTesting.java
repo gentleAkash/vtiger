@@ -5,6 +5,7 @@ public class GitTesting {
 		method1();
 		method2();
 		method3();
+		method4();
 		
 		System.out.println("this is main method");
 	}
@@ -22,5 +23,10 @@ public class GitTesting {
 		System.out.println("method three");
 		
 }
+	public static void method4() {
+		System.out.println("method four");
+		
 }
+}
+
 
