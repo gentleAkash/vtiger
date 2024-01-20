@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="VtigerTestSuite" verbose="2" preserve-order="true">
+
+    <!--<groups>
+		<run>
+			
+			<include name="Smoke"> </include>
+		
+		</run>
+	</groups>-->
+	
+	
+	<!--<listeners>
+		  <listener class-name=" com.eva.vtiger.utils. MyAnnotationTranformer"></listener>
+	</listeners>-->
+
+	<test name="vitigertestSuite">
+		<classes>
+			<class
+				name=" com.eva.vtiger.base.BaseTest" />
+		</classes>
+	</test>																																
+	<test name="VtigerTestSuite">
+		
+		<parameter name="browser" value="chrome" />
+		<parameter name="userName" value="admin" />
+		<parameter name="password" value="user" />
+	</test>
+
+</suite>

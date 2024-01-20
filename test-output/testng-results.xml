@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T08:55:47 IST" name="Default suite" finished-at="2023-12-28T08:56:06 IST" duration-ms="18808">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T08:55:47 IST" name="Default test" finished-at="2023-12-28T08:56:06 IST" duration-ms="18808">
+      <class name="com.eva.vtiger.utils.DataProvider1">
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:com.eva.vtiger.utils.DataProvider1@4f2b503c]" started-at="2023-12-28T08:55:47 IST" name="TestLogin" data-provider="loginTestData" finished-at="2023-12-28T08:55:57 IST" duration-ms="10126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:com.eva.vtiger.utils.DataProvider1@4f2b503c]" started-at="2023-12-28T08:55:57 IST" name="TestLogin" data-provider="loginTestData" finished-at="2023-12-28T08:56:06 IST" duration-ms="8634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+      </class> <!-- com.eva.vtiger.utils.DataProvider1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

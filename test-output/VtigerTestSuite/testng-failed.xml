@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VtigerTestSuite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name=" com.eva.vtiger.base.BaseTest(failed)" verbose="2">
+    <classes>
+      <class name="com.eva.vtiger.inventorytestscripts.InventryInvoiceTestScripts">
+        <methods>
+          <include name="beforeTestCases"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="verifyVT006AccountAndContactAddOnInvoiceForm"/>
+          <include name="beforeTestTag"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eva.vtiger.inventorytestscripts.InventryInvoiceTestScripts -->
+    </classes>
+  </test> <!--  com.eva.vtiger.base.BaseTest(failed) -->
+</suite> <!-- Failed suite [VtigerTestSuite] -->
